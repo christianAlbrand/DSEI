@@ -1,0 +1,15 @@
+.section-border{
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.059);
+    width: 20%;
+    text-align: center;
+}
+
+.section-border:hover{
+    border: 3px solid green;
+    margin-left: 20px;
+}
+
+img{
+    width: 40%;
+}

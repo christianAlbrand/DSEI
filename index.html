@@ -1,43 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Test</title>
 </head>
-<body>
-    <h1>Christian Albrand Aguirre Software Development</h1>
-    <h2>Diseño y desarrollo Web Freelancer</h2>
-    <h3>Tijuana Baja California</h3>
-    <h2>Mis Servicios</h2>
-    <h3>diseño Web</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, maiores?</p>
-    <br>
-    <h3>Aplicaciones Web</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, sed?</p>
-    <br>
-    <h3>E-Commerce</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, est.</p>
 
-    <p>
-    <hr>
-    <h2>Glosario de etiquetas HTML</h2>
-    <ul>
-        <li>&lt;head&gt;Rrovee información general (metadatos) acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos. &lt;/head&gt</li>
-        <li>&lt;body&gt; Representa el contenido de un documento HTML &lt;/body&gt;</li>
-        <li>&lt;p&gt; Muestra un parrafo para textos concretos o textos normales &lt;/p&gt;</li>
-        <li>&lt;br&gt; Salto de linea</li>
-        <li>&lt;hr&gt; Representa un salto temático a nivel de párrafo.</li>
-        <li>&lt;h1-h6&gt; Representa titulos y subtitulos</li>
-        <li>&lt;nav&gt; Representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros documentos.</li>
-        <li>&lt;header&gt; Representa un grupo de ayudas introductorias o de navegación</li>
-        <li>&lt;main&gt; Representa el contenido principal del &lt;body&gt; de un documento o aplicación.</li>
-        <li>&lt;footer&gt; Contiene información acerca de el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados</li>
-        <li>&lt;section&gt; Representa una sección genérica independiente de un documento, que no tiene un elemento semántico más específico para representarla. Las secciones siempre deben tener un título, con muy pocas excepciones.</li>
-        <li>&lt;article&gt; Representa una composición auto-contenida en un documento, una página, una aplicación o en un sitio, que se quiere que sea distribuíble y/o reutilizable de manera independiente</li>
-        <li>&lt;div&gt; Define las divisiones lógicas existentes en el contenido de una página web.</li>
-        <li>&lt;aside&gt; Es un elemento semántico que se introduce para marcar el contenido que está indirectamente relacionado con el contenido principal del artículo de una página. </li>
-    </ul>
-    <h6>Fecha: 14 de enero de 2025</h6>
+<body>
+    <header>
+        <h1>Christian Albrand Aguirre Software Development</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Sobre Mi</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <img src="img/software.jpg" alt="">
+    <section>
+        <h2>Diseño y desarrollo Web Freelancer</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 24 24" fill="none"
+            stroke="#edb12f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+        </svg>
+        <h3>Tijuana Baja California</h3>
+    </section>
+    <main>
+        <h2>Mis Servicios</h2>
+    </main>
+    <section class="section-border">
+        <h3>diseño Web</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+            stroke="#edb12f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
+            <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
+            <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
+            <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
+        </svg>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, maiores?</p>
+    </section>
+    <br>
+    <section class="section-border">
+        <h3>Aplicaciones Web</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+            stroke="#edb12f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+            <path d="M6 8h.01" />
+            <path d="M9 8h.01" />
+        </svg>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, sed?</p>
+    </section>
+    <br>
+    <section class="section-border">
+        <h3>E-Commerce</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#edb12f"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+            <path d="M5.001 8h13.999a2 2 0 0 1 1.977 2.304l-1.255 7.152a3 3 0 0 1 -2.966 2.544h-9.512a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304z" />
+            <path d="M17 10l-2 -6" />
+            <path d="M7 10l2 -6" />
+        </svg>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, est.</p>
+    </section>
+    <footer>
+        <p>Todos los derechos son reservados</p>
+    </footer>
 </body>
+
 </html>
