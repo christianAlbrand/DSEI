@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
     <title>Contacto</title>
 </head>
+
 <body>
     <header class="header-background">
         <h1>Christian Albrand Aguirre Software Development</h1>
@@ -19,11 +22,42 @@
         </nav>
     </header>
     <main>
-        <h1>CONTACTO</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias illum quisquam aspernatur nisi accusamus repellat ad debitis dolorum quam vero esse dolorem praesentium ratione animi doloribus impedit voluptatem, at laborum!</p>
+        <h1 class="contact-h1">Contacto</h1>
+        <div class="contact-div">
+            <div class="contact-div">
+                <h1 class="contact-div-h1">LLENA EL SIGUIENTE FORMULARIO PARA CONTACTARNOS</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name_id" name="name" placeholder="Tu Nombre..." required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="tel">Teléfono</label>
+                        <input type="tel" id="tel_id" name="tel" placeholder="Tu Teléfono..." required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="mail">Correo</label>
+                        <input type="email" id="email_id" name="mail" placeholder="Tu Email..." required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message_id" name="message" placeholder="Escribe Tu Mensaje..." style="height: 300px;"
+                            required></textarea>
+                    </div>
+    
+                    <div class="form-group">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Todos los derechos son reservados</p>
     </footer>
 </body>
+
 </html>
