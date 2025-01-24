@@ -4,67 +4,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/index.css">
     <title>Test</title>
+    <style>
+        .section-background {
+            background-image: url('img/software.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            height: 700px;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <header class="header-background">
         <h1>Christian Albrand Aguirre Software Development</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="sobreMi.html">Sobre Mi</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
     </header>
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Sobre Mi</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Contacto</a>
-    </nav>
-    <img src="img/software.jpg" alt="">
-    <section>
-        <h2>Diseño y desarrollo Web Freelancer</h2>
-        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 24 24" fill="none"
-            stroke="#edb12f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-        </svg>
-        <h3>Tijuana Baja California</h3>
-    </section>
     <main>
-        <h2>Mis Servicios</h2>
+        <section>
+            <div class="section-background"></div>
+            <div class="section-text">
+                <h2>Diseño y desarrollo Web Freelancer</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 24 24" fill="none"
+                    stroke="#edb12f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <h3>Tijuana Baja California</h3>
+            </div>
+        </section>
+        <div>
+            <div class="my-services-div">
+                <h2>Mis Servicios</h2>
+            </div>
+            <div class="services-div">
+                <section class="section-border">
+                    <h3>diseño Web</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                        stroke="#edb12f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
+                        <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
+                        <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
+                        <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
+                    </svg>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, maiores?</p>
+                </section>
+                <section class="section-border">
+                    <h3>Aplicaciones Web</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                        stroke="#edb12f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+                        <path d="M6 8h.01" />
+                        <path d="M9 8h.01" />
+                    </svg>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, sed?</p>
+                </section>
+                <section class="section-border">
+                    <h3>E-Commerce</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                        stroke="#edb12f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                        <path
+                            d="M5.001 8h13.999a2 2 0 0 1 1.977 2.304l-1.255 7.152a3 3 0 0 1 -2.966 2.544h-9.512a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304z" />
+                        <path d="M17 10l-2 -6" />
+                        <path d="M7 10l2 -6" />
+                    </svg>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, est.</p>
+                </section>
+            </div>
+        </div>
     </main>
-    <section class="section-border">
-        <h3>diseño Web</h3>
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
-            stroke="#edb12f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
-            <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
-            <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
-            <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
-        </svg>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, maiores?</p>
-    </section>
-    <br>
-    <section class="section-border">
-        <h3>Aplicaciones Web</h3>
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
-            stroke="#edb12f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
-            <path d="M6 8h.01" />
-            <path d="M9 8h.01" />
-        </svg>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, sed?</p>
-    </section>
-    <br>
-    <section class="section-border">
-        <h3>E-Commerce</h3>
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#edb12f"
-            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-            <path d="M5.001 8h13.999a2 2 0 0 1 1.977 2.304l-1.255 7.152a3 3 0 0 1 -2.966 2.544h-9.512a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304z" />
-            <path d="M17 10l-2 -6" />
-            <path d="M7 10l2 -6" />
-        </svg>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, est.</p>
-    </section>
     <footer>
         <p>Todos los derechos son reservados</p>
     </footer>

@@ -1,0 +1,16 @@
+header{
+    color: #edb12f;
+    padding: 20px;
+    text-align: center;
+}
+
+header > nav > a{
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header > nav > a:hover{
+    color: #edb12f;
+}
