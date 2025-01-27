@@ -59,9 +59,24 @@
     box-shadow:  0 8px 15px rgba(194, 140, 24, 0.4);
 }
 
-@media only screen and (min-width: 768px){
+@media(min-width: 768px){
     .section-text{
-        top: 65%;
+        top: 40%;
+        left: 50%;
+    }
+}
+
+
+@media(min-width: 1440px){
+    .section-text{
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@media(min-width: 1920px){
+    .section-text{
+        top: 36%;
         left: 50%;
     }
 }

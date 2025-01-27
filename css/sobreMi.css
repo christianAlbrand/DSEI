@@ -3,7 +3,8 @@
     height: 150px;
     border-radius: 50%;
     border: 3px solid #00000000;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .img-fix{
@@ -33,5 +34,4 @@ p{
 .img-container{
     margin-right: 20px;
     margin-left: 20px;
-    margin-top: 10px;
 }
